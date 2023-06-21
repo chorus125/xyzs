@@ -1046,7 +1046,6 @@ async def advantage_spell_chok(client, msg):
                 await asyncio.sleep(600)
                 await spell_check_del.delete()
 
-
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
     name = text or message.text
